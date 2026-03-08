@@ -14,6 +14,12 @@ class TerritoryPerm
 	static int REMOVECARCOVER = 256; // 0000 0001 0000 0000  
 }
 
+modded class GameConstants 
+{
+	const float REFRESHER_RADIUS = 80; 				//meters
+}
+
+
 class TerritoryIcons 
 {
 	static string NoBuildZone				= "ZenTerritories/images/NoBuild.paa";
